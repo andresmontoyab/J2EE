@@ -18,4 +18,9 @@ public interface PersonaDao {
 
    void deletePersona(Persona persona);
 
+    List<Persona> findAllPersonasCriteria();
+
+   Persona findPersonaByIdCriteria(Persona persona);
+
+   Persona findPersonaByIdCriteriaPredicate(Persona persona);
 }

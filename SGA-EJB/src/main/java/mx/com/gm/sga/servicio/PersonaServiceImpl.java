@@ -18,8 +18,23 @@ public class PersonaServiceImpl implements PersonaServiceRemote {
         return personaDao.findAllPersonas();
     }
 
+    @Override
+    public List<Persona> listarPersonasCriteria() {
+        return personaDao.findAllPersonasCriteria();
+    }
+
     public Persona encontrarPersonaPorId(Persona persona) {
         return personaDao.findPersonaById(persona);
+    }
+
+    @Override
+    public Persona encontrarPersonaPorIdCriteria(Persona persona) {
+        return personaDao.findPersonaByIdCriteria(persona);
+    }
+
+    @Override
+    public Persona encontrarPersonaPorIdCriteriaPredicate(Persona persona) {
+        return personaDao.findPersonaByIdCriteriaPredicate(persona);
     }
 
     public Persona encontrarPersonaPorEmail() {
@@ -27,6 +42,7 @@ public class PersonaServiceImpl implements PersonaServiceRemote {
     }
 
     public void registrarPersona(Persona persona) {
+        personaDao.insertPersona(persona);
     }
 
     public void modificarPersona(Persona persona) {
