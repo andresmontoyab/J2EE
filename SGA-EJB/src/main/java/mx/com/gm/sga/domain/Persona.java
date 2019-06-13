@@ -1,21 +1,43 @@
 package mx.com.gm.sga.domain;
 
+import javax.persistence.*;
 import java.io.Serializable;
 
+@Entity
+@NamedQueries({
+        @NamedQuery(name = "Persona.findAll", query = "SELECT p FROM Persona p ORDER BY p.idPersona")})
+@Table(name = "PERSONA")
 public class Persona implements Serializable {
 
-    private static final long serialVersionUID = 1L;
-    private int idPersona;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_persona")
+    private Integer idPersona;
+
+    @Column(nullable = false, length = 45)
     private String nombre;
+
+    @Column(name = "apellido_paterno", nullable = false, length = 45)
     private String apePaterno;
+
+    @Column(name = "apellido_materno", length = 45)
     private String apeMaterno;
+
+    @Column(nullable = false, length = 45)
     private String email;
+
+    @Column(length = 45)
     private String telefono;
 
-    public Persona() {}
+    public Persona() {
+    }
 
-    public Persona(int idPersona, String nombre, String apePaterno, String apeMaterno, String email, String telefono) {
+    public Persona(int idPersona) {
         this.idPersona = idPersona;
+    }
+
+    public Persona(String nombre, String apePaterno,
+                   String apeMaterno, String email, String telefono) {
         this.nombre = nombre;
         this.apePaterno = apePaterno;
         this.apeMaterno = apeMaterno;
@@ -23,15 +45,11 @@ public class Persona implements Serializable {
         this.telefono = telefono;
     }
 
-    public static long getSerialVersionUID() {
-        return serialVersionUID;
-    }
-
-    public int getIdPersona() {
+    public Integer getIdPersona() {
         return idPersona;
     }
 
-    public void setIdPersona(int idPersona) {
+    public void setIdPersona(Integer idPersona) {
         this.idPersona = idPersona;
     }
 

@@ -10,7 +10,7 @@ public interface PersonaServiceRemote {
 
     List<Persona> listarPersonas();
 
-    Persona encontrarPersonaPorId();
+    Persona encontrarPersonaPorId(Persona persona);
 
     Persona encontrarPersonaPorEmail();
 

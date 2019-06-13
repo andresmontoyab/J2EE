@@ -1,5 +1,15 @@
 mx\com\gm\sga\servicio\PersonaServiceImpl.class
+mx\com\gm\sga\domain\Persona_.class
+mx\com\gm\sga\servicio\UsuarioServiceRemote.class
+mx\com\gm\sga\persistencia\PersonaDao.class
+mx\com\gm\sga\servicio\UsuarioServiceImpl.class
+mx\com\gm\sga\persistencia\PersonaDaoImpl.class
+mx\com\gm\sga\persistencia\UsuarioDao.class
+mx\com\gm\sga\domain\Usuario_.class
 mx\com\gm\sga\servicio\PersonaServiceRemote.class
 mx\com\gm\sga\cliente\ClientePersonaServiceConIP.class
 mx\com\gm\sga\cliente\ClientePersonaService.class
+mx\com\gm\sga\persistencia\UsuarioDaoImpl.class
+mx\com\gm\sga\domain\Usuario.class
 mx\com\gm\sga\domain\Persona.class
+mx\com\gm\sga\cliente\ClienteUsuarioService.class

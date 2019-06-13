@@ -1,5 +1,13 @@
 C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\servicio\PersonaServiceImpl.java
-C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\cliente\ClientePersonaService.java
+C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\persistencia\PersonaDao.java
 C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\domain\Persona.java
+C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\persistencia\PersonaDaoImpl.java
+C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\servicio\UsuarioServiceImpl.java
 C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\cliente\ClientePersonaServiceConIP.java
 C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\servicio\PersonaServiceRemote.java
+C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\cliente\ClienteUsuarioService.java
+C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\persistencia\UsuarioDaoImpl.java
+C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\cliente\ClientePersonaService.java
+C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\persistencia\UsuarioDao.java
+C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\servicio\UsuarioServiceRemote.java
+C:\Users\Andres\Documents\Estudio\BackEnd\Java\J2EE\EJB\SGA-EJB\src\main\java\mx\com\gm\sga\domain\Usuario.java
